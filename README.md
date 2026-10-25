@@ -39,8 +39,14 @@ Ex: `Allocating on the heap`, `Allocating`
 
 ---
 
-I'm here in the Book now (Chapter `04.01`):
+### Notes
 
-![[/home/abbashayder/Pictures/Screenshots/Screenshot_2026-03-25_21-58-02.png]]
+![[assets/IMG_1434.jpeg]]
+
+---
+
+I'm here in the Book now:
+
+<https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html>
 
 ---

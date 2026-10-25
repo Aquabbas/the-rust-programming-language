@@ -1,15 +1,15 @@
 #![allow(unused)]
+
 fn main() {
-    // let mut s = String::from("Hello, my friend");
-    //
-    // s.push_str(", only for you!");
-    //
-    // println!("{s}");
+    let s1 = String::from("Hello!!!");
 
-    // let x = 5;
-    // let y = x;
+    let (s2, length) = calculate_length(s1);
 
-    let s1 = String::from("Hello");
+    println!("The length of '{s2}' is {length} bytes")
+}
 
-    let s2 = s1;
+fn calculate_length(s: String) -> (String, usize) {
+    let length = s.len();
+
+    (s, length)
 }
