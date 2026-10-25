@@ -41,7 +41,7 @@ Ex: `Allocating on the heap`, `Allocating`
 
 ### Notes
 
-![[assets/IMG_1434.jpeg]]
+![IMG_1434](./assets/IMG_1434.jpeg)
 
 ---
 
