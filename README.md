@@ -41,12 +41,19 @@ Ex: `Allocating on the heap`, `Allocating`
 
 ### Notes
 
+<!-- markdownlint-disable MD033 -->
+
+<details>
+  <summary>Click to expand</summary>
+
 ![IMG_1434](./assets/IMG_1434.jpeg)
+
+</details>
 
 ---
 
 I'm here in the Book now:
 
-<https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html>
+<https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#mutable-references>
 
 ---

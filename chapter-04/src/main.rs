@@ -1,15 +1,13 @@
 #![allow(unused)]
 
 fn main() {
-    let s1 = String::from("Hello!!!");
+    let mut s1 = String::from("Hello!!!");
 
-    let (s2, length) = calculate_length(s1);
+    change(&mut s1);
 
-    println!("The length of '{s2}' is {length} bytes")
+    println!("{s1}")
 }
 
-fn calculate_length(s: String) -> (String, usize) {
-    let length = s.len();
-
-    (s, length)
+fn change(some_string: &mut String) {
+    some_string.push_str("    WORLD");
 }
