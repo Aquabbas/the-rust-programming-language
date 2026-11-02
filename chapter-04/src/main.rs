@@ -1,13 +1,11 @@
 #![allow(unused)]
 
 fn main() {
-    let mut s1 = String::from("Hello!!!");
-
-    change(&mut s1);
-
-    println!("{s1}")
+    let reference_to_nothing = dangel();
 }
 
-fn change(some_string: &mut String) {
-    some_string.push_str("    WORLD");
+fn dangel() -> &String {
+    let s = String::from("Helloooo!");
+
+    &s
 }

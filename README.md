@@ -54,6 +54,6 @@ Ex: `Allocating on the heap`, `Allocating`
 
 I'm here in the Book now:
 
-<https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#mutable-references>
+<https://doc.rust-lang.org/book/ch04-03-slices.html#the-slice-type>
 
 ---
